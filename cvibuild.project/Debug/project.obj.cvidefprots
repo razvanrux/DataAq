@@ -1,0 +1,130 @@
+[refreshWave]
+Class="Function"
+Prototype="void refreshWave(int panel, int minVal, int maxVal);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:98:6"
+
+[DisplayFilteredWaveformInGraph]
+Class="Function"
+Prototype="void DisplayFilteredWaveformInGraph(int panel, int start, int end, double *data, int numPoints);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:116:6"
+
+[DisplayDerivative]
+Class="Function"
+Prototype="void DisplayDerivative(int panel, int start, int end, double *data, int numPoints);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:132:6"
+
+[DisplayWaveformInGraph]
+Class="Function"
+Prototype="void DisplayWaveformInGraph(int panel, int start, int end, double *data, int numPoints);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:148:6"
+
+[DisplayAnvelope]
+Class="Function"
+Prototype="void DisplayAnvelope(int panel, int start, int end, double *data, int numPoints);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:163:6"
+
+[DisplayHistogram]
+Class="Function"
+Prototype="void DisplayHistogram(int panel, int start, int end, double *data, int numPoints);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:175:6"
+
+[AverageFilter]
+Class="Function"
+Prototype="void AverageFilter(double *signal, double *filtered, int numPoints, int windowSize);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:188:6"
+
+[CustomFilter]
+Class="Function"
+Prototype="void CustomFilter(double *signal, double *filtered, int numPoints);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:208:6"
+
+[ApplyAveragingFilter]
+Class="Function"
+Prototype="void ApplyAveragingFilter(int panel, int option, double *filtered);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:216:6"
+
+[ZeroCross]
+Class="Function"
+Prototype="int ZeroCross(double *data, int points);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:241:5"
+
+[SkewnessAndKurtosis]
+Class="Function"
+Prototype="void SkewnessAndKurtosis(double *data);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:256:6"
+
+[loadWAV]
+Class="Function"
+Prototype="double *loadWAV(const char *filePath, int *sampleRate, int *numSamples);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:305:9"
+
+[main]
+Class="Function"
+Prototype="int main(int argc, char *argv[]);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:335:5"
+
+[OnMainPanelCB]
+Class="Function"
+Prototype="int OnMainPanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:359:17"
+
+[OnLoadButtonCB]
+Class="Function"
+Prototype="int OnLoadButtonCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:382:17"
+
+[OnPrevButtonCB]
+Class="Function"
+Prototype="int OnPrevButtonCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:435:17"
+
+[OnNextButtonCB]
+Class="Function"
+Prototype="int OnNextButtonCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:503:17"
+
+[OnApplyButtonCB]
+Class="Function"
+Prototype="int OnApplyButtonCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:576:17"
+
+[OnFilterClickCB]
+Class="Function"
+Prototype="int OnFilterClickCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:592:17"
+
+[SaveGraphs]
+Class="Function"
+Prototype="int SaveGraphs(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:617:17"
+
+[GenAnv]
+Class="Function"
+Prototype="int GenAnv(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:642:17"
+
+[GenDeriv]
+Class="Function"
+Prototype="int GenDeriv(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:654:17"
+
+[GetVal]
+Class="Function"
+Prototype="int GetVal(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:666:17"
+
+[ChangePanel]
+Class="Function"
+Prototype="int ChangePanel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:680:17"
+
+[OnFrequencyButtonCB]
+Class="Function"
+Prototype="int OnFrequencyButtonCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:704:17"
+
+[OnFilterButtonCB]
+Class="Function"
+Prototype="int OnFilterButtonCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\razvanrux\Documents\APD-P\project.c:745:17"
+
